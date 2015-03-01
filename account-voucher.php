@@ -39,7 +39,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php';
                 <div class="footer-button user"><img src="/images/gray/addperson.png" class="svg" alt="" /></div>
             </td>
             <td style="width:16.7%;">
-                <div class="footer-button user"><img src="/images/gray/cert.png" class="svg" alt="" /></div>
+                <div class="footer-button user"><img src="/images/green/cert.png" class="svg" alt="" /></div>
             </td>
         </tr>
     </table>
