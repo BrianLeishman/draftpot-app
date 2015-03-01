@@ -13,6 +13,11 @@
     src: url('/fonts/Thin.otf');
 }
 
+@font-face {
+    font-family: 'Wis_Script';
+    src: url('/fonts/Wisdom-Script.otf');
+}
+
 head, body{
     min-height:100%;
     width:100%;
@@ -29,18 +34,22 @@ input{
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #000;
+    color:    #5d5e5e;
+    font-family:'HVN_Thin';
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #000;
+    color:    #5d5e5e;
     opacity:  1;
+    font-family:'HVN_Thin';
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #000;
+    color:    #5d5e5e;
     opacity:  1;
+    font-family:'HVN_Thin';
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #000;
+    color:    #5d5e5e;
+    font-family:'HVN_Thin';
 }
 
 .header{
@@ -105,7 +114,7 @@ input{
     border-bottom:1px solid #e9eaea;
     color:#fff;
     border-top:1px solid #c9dcd5;
-    font-family:'HVN_Reg';
+    font-family:'HVN_Lite';
     font-size:46px;
 }
 
@@ -699,4 +708,211 @@ input{
 .red-x{
     position: relative;
     top: 3px;
+}
+
+.landing-logo{
+    font-family:"Wis_Script";
+    font-size:212px;
+    color:#fff;
+    width:100%;
+    text-align:center;
+    position:relative;
+    margin-top:40px;
+}
+
+.landing-content{
+    width:100%;
+    height:100%;
+    background-color:#414142;
+}
+
+.dark-gray-background{
+    background-color:#414142;
+}
+
+.green-stripe{
+    content:" ";
+    position:relative;
+    height:11px;
+    background-color:#80caa9;
+    width:100%;
+    position:relative;
+    margin-top:70px;
+}
+
+.landing-button{
+    border:#fff 2px solid;
+    border-radius:0px;
+    background-color:transparent;
+    text-align:center;
+    width:271px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#fff;
+    font-family: "Hvn_Lite";
+    position: relative;
+    font-size: 48px;
+    height:86px;
+    line-height:80px;
+    margin:0 auto;
+    margin-bottom:30px;
+}
+
+.landing-text{
+    color:#fff;
+    font-family: "Hvn_Lite";
+    position: relative;
+    font-size: 48px;
+    width:100%;
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.landing-button-container{
+    text-align:center;
+    width:100%;
+    position:relative;
+
+}
+
+.landing-right{
+    -ms-transform-origin: 50% 23px; /* IE 9 */
+    -webkit-transform-origin: 50% 23px; /* Chrome, Safari */
+    -o-transform-origin: 50% 23px;
+    transform-origin: 50% 23px;
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display:inline-block;
+    width:40px;
+}
+
+.landing-button-text{
+    display:inline-block;
+    width:auto;
+    text-align:center;
+    width:180px;
+}
+
+.landing-disclaimer{
+    font-family: "Hvn_Lite";
+    text-align:center;
+    width:100%;
+    color:#fff;
+    position:relative;
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.landing-fields{
+    margin-bottom:70px;
+}
+
+.landing-fields input{
+    width:100%;
+    padding:20px;
+    border:0;
+    border-bottom: 1px solid #000;
+    outline:0;
+}
+
+.center{
+    text-align: center;
+}
+
+.large-child{
+    height:100px;
+    line-height:100px;
+    font-size:46px;
+}
+
+.account-table{
+    border-collapse: collapse;
+    border:0;
+    outline:0;
+}
+
+.account-table tr td{
+    border-right:1px solid #dbdcde;
+    border-left:1px solid #dbdcde;
+}
+
+.account-table tr td:nth-child(1){
+    border-left:0;
+}
+
+.account-table tr td:nth-child(3){
+    border-right:0;
+}
+
+.thin-top-border{
+    border:0;
+    border-top:1px solid #dbddde;
+    height:102px;
+    outline:0;
+}
+
+.thin-top-border:before{
+    background-color:transparent;
+}
+
+.account-table img{
+    margin-top:10px;
+    height:80px;
+}
+
+.lineup-children-amount{
+    text-align:center;
+    width:168px;
+    display:inline-block;
+    border-right:1px solid #a7aaab;
+}
+
+.lineup-amount{
+    border-bottom:1px solid #a7aaab;;
+}
+
+.lineup-history div{
+    display:inline-block;
+}
+
+.lineup-history{
+    display:inline-block;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: -5px;
+    position: relative;
+    top: 12px;
+    padding-left: 15px;
+}
+
+.large-child input{
+    height:100%;
+    width:100%;
+    border:0;
+    outline:0;
+    padding-left:30px;
+    border-bottom:#bdbfc1 solid 1px;
+}
+
+.large-child-text{
+    padding-top:30px;
+    padding-left:30px;
+    width:100%;
+    height:178px;
+    color:#3a3a3c;
+    border-top:#bdbfc1 solid 1px;
+    border-bottom:#bdbfc1 solid 1px;
+}
+
+.lineup-email{
+    display:inline-block;
+}
+
+.lineup-email input{
+    height: 100%;
+    border: 0;
+    position: relative;
+    top: -3px;
 }

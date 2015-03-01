@@ -15,3 +15,6 @@ function RandString($len = 5) {
 }
 
 $Price = false;
+
+
+$Header = true;

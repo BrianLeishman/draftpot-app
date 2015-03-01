@@ -10,14 +10,19 @@
             var urlbase = '<?php echo $urlbase; ?>';
             //--></script>
         <script type="text/javascript" src="/js/core.js"></script>
+        <meta name="viewport" content="initial-scale=.5, user-scalable=no" />
     </head>
-    <body>
-        <div class="header">
-            <meta name="viewport" content="initial-scale=.5, user-scalable=no" />
-            <img class="logo" src="/images/logo.png" alt=""/>
-            <div class="header-button header-button-mlb reg">MLB</div> <div class="header-button header-button-nba">NBA</div> <div class="header-button header-button-nhl">NHL</div>
+    <?php if ($Header) { ?>
+        <body>
+            <div class="header">
+                <img class="logo" src="/images/logo.png" alt=""/>
+                <div class="header-button header-button-mlb reg">MLB</div> <div class="header-button header-button-nba">NBA</div> <div class="header-button header-button-nhl">NHL</div>
 
-            <div class="header-underline"> </div>
-            <?php if ($Price) { ?><div class="header-price">$457</div><?php } ?>
-        </div>
-        <div class="content">
+                <div class="header-underline"> </div>
+                <?php if ($Price) { ?><div class="header-price">$457</div><?php } ?>
+            </div>
+            <div class="content">
+            <?php } else { ?>
+                <body class="dark-gray-background">
+                    <div class="landing-content">
+                    <?php } ?>
